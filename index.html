@@ -1,0 +1,94 @@
+<html lang = "en">
+    <head>
+        <link href="student.css" type="text/css" rel="stylesheet">
+        <title>STUDENT DATA</title>
+        <meta name="viewport">
+    </head>
+    <header>
+        <P>Student Data</P>
+    </header>
+     <section>
+        <nav>
+            <ul>
+                <li><a href = "#">Home</a></li>
+                <li><a href = "#12">Courses</a></li>
+                <li><a href = "https://www.cit.edu.in/" >Contacts</a></li>
+            </ul>
+        </nav>
+    </section>
+    
+    <article>
+        <img src="logo.png">
+        <p>CIT offers 8 Under Graduate Academic Programmes, 6 Post Graduate Academic Programmes, 4 Five Year Integrated M.Sc. Programmes in addition to Ph.D. Research Pragrammes. As part of the invaluable service rendered to the society by V.Rangaswamy EducationalTrust, the CIT Sandwich Polytechnic College was started in 1961. Presently, 8 Engineering Diploma Programmes are offered by the polytechnic in various Engineering disciplines</p>
+    
+        <table id="12">
+            <tr>
+                <th>Degree</th>
+                <th>Course</th>
+                <th>Seats available</th>
+            </tr>
+            <tr>
+                <td>BE</td>
+                <td>CSE</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>BE</td>
+                <td>EEE</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <td>BE</td>
+                <td>ECE</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>MSc</td>
+                <td>DCS</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <td>MSc</td>
+                <td>SS</td>
+                <td>60</td>
+            </tr>
+        </table>
+        <form>
+            <pre>
+            Name            <input type="text" name = "username">
+    
+            Academic Year   <input type="text" name = "Academic Year">
+            
+            Date of Birth   <input type = "date" name = "DOB">
+            
+            Photo           <input type="file" name="Photo"><input type="submit" value="Upload">
+            
+            Father Name     <input type = "text" name = "Father Name">
+            
+            Mother Name     <input type = "text" name = "Mother Name">
+            
+            Gender   <input type = "radio" name="Gender" value="Male">Male   <input type = "radio" name="Gender" value="Female">Female
+            
+            SSLC Mark       <input type = "text" name = "SSLC mark">percent
+            
+            HSC Mark        <input type = "text" name = "HSC mark">percent
+            
+                
+            <label for="Course">Choose a course:</label>
+            <select name="course" id="course">
+              <option value = ""> </option>
+              <option value="BE">BE</option>
+              <option value="BTech">BTech</option>
+              <option value="MSc">MSc</option>
+            </select><br><br>
+            <input type="checkbox" id="Agree" name="Check box" value="Agree"><label for="Agree">I declare that the above given details are true</label>
+    
+            <input type="submit" value="Submit">
+            </pre>
+        </form>
+       
+    </article>
+    <footer>
+        <p>Thank you for filling!!!!!!!!!</p>
+    </footer>
+</html>
